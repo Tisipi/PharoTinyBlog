@@ -35,11 +35,10 @@ TBBlogTest >> setUp [
 { #category : #running }
 TBBlogTest >> tearDown [
  	"
-	Cleanup all test reaources
+	Cleanup all test resources
 	"
-	super tearDown.
 	TBBlog reset.
-	
+	super tearDown.	
 	
 	
 ]
